@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+
+ .clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+	width: 1280px;
+	margin: auto;
+}
+
+/* header style */
+
+.header .heading {
+	text-transform: uppercase;
+	font: bold 80px Arial, sans-serife;
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	background-size: 7%;
+	padding-left: 75px;
+}
+
+.header .heading a {
+	color: #180000;
+	display: block;
+	text-decoration: none;
+}
+
+.header .main-menu {
+	border-top: 1px solid #9A7669;
+	border-bottom: 1px solid #9A7669;
+	margin-bottom: 40px;
+}
+
+.header .main-menu li {
+	float: left;
+	width: 20%;
+}
+
+.header .main-menu li a {
+	display: block;
+	text-decoration: none;
+	margin: 10px 50px;
+	color: #795548;
+	font-size: 20px;
+}
+
+.header .main-menu li a:hover {
+	text-decoration: underline;
+}
+
+.wrapper-contant {
+	border: 1px solid #9A7669;
+	padding-top: 30px;
+	margin-bottom: 40px
+}
+
+/* side-menu style */
+
+.side-menu {
+	padding: 10px;
+	float: left;
+}
+
+.side-menu ol {
+	list-style-type: upper-roman;
+	list-style-position: inside;
+	color: #C30000;
+}
+
+.side-menu a {
+	display: block;
+	text-decoration: none;
+	margin: 10px 20px;
+	color: #795548;
+	font-size: 24px;
+}
+
+.side-menu a:hover {
+	text-decoration: underline;
+}
+
+/* content style */
+
+.content {
+	float: right;
+	width: 75%;
+	color: #3E1A0D;
+	padding: 0 20px;
+	border-left: 1px solid #9A7669;
+	margin-bottom: 30px;
+}
+
+.content .image-wrapper {
+	height: 300px;
+	padding: 30px;
+	float: left;
+	
+}
+
+.content .image-wrapper img {
+	height: 100%;
+}
+
+.content .details {
+	float: right;
+	padding: 10px 30px;
+}
+
+.content .details li {
+	padding: 9px;
+	list-style-type: disc;
+	font-size: 17px;
+	
+}
+
+.content .description {
+	clear: both;
+}
+
+.content .description .model {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.content .description .brand {
+	font-weight: bold;
+}
+
+/* table style */
+
+.table-offers {
+	width: 90%;
+	margin: 0 auto 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.table-offers .heading-table {
+	font-weight: bold;
+	font-size: 24px;
+	color: #180000;
+	margin-bottom: 10px;
+}
+
+.table-offers th,td {
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+.table-offers tr:nth-child(even){
+	background-color:#eee;
+}
+
+.table-offers th {
+	font-weight: bold;
+}
+
+/* footer style */
+
+.footer {
+	border-top: 1px solid #9A7669;
+	border-bottom: 1px solid #9A7669;
+	color: #795548;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.footer .contacts {
+	float: right;
+}
